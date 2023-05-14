@@ -1,0 +1,15 @@
+composer global require laravel/installer
+laravel new react-laravel-crud
+php artisan migrate
+npm create vite
+npm install
+npm run dev
+
+git config --global user.email "sysdev@gmx.com"
+git config --global user.name "reyatwel"
+git config --global user.password "!@#$%^&1234567Qwertyu"
+
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/reyatwel/react-laravel-crud.git
